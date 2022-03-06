@@ -8,6 +8,37 @@ body {
 }
 
 .container {
-    max-width: 1220px;
+    max-width: 1280px;
     margin: 0 auto;
+}
+
+h1,
+h2,
+h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.animeOpacity {
+    opacity: 0;
+    animation: anime .8s forwards;
+}
+
+.animeTop {
+    opacity: 0;
+    transform: translateY(50px);
+    animation: anime .7s forwards;
+}
+
+.animeLeft {
+    opacity: 0;
+    transform: translateX(-20px);
+    animation: anime .7s forwards;
+}
+
+@keyframes anime {
+    to {
+        opacity: 1;
+        transform: initial;
+    }
 }

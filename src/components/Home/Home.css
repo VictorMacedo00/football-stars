@@ -1,6 +1,5 @@
 .home {
     width: 100vw;
     height: 100vh;
-    background-color: yellow;
-    position: relative;
+    background: radial-gradient(#F7EE08, #F7EE08);
 }

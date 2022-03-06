@@ -7,7 +7,7 @@ interface HeaderProps {
 
 const Header: React.FC<HeaderProps> = (props) => {
   return (
-    <nav className="container nav">
+    <nav className="container nav animeOpacity">
       <span>H</span>
       <button>{'>'}</button>
     </nav>
