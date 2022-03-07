@@ -8,8 +8,8 @@ interface HeaderProps {
 const Header: React.FC<HeaderProps> = (props) => {
   return (
     <nav className="container nav animeOpacity">
-      <span>H</span>
-      <button>{'>'}</button>
+      <span>{props.firstLetter}</span>
+      <button>{">"}</button>
     </nav>
   );
 };

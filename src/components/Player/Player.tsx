@@ -1,10 +1,12 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./Player.css";
 import playerBackground from "./../../Assets/soccer-players/haaland/haaland-background.png";
 import svgBackground from "./../../Assets/background-svg.svg";
 import { PlayerInfo } from "./PlayerInfo/PlayerInfo";
+import { PlayerContext } from "../../Contexts/PlayerContext";
 
-export const Player = () => {
+const Player: React.FC = () => {
+
   return (
     <div className="player">
       <div className="svgBackground animeTop">
@@ -31,3 +33,5 @@ export const Player = () => {
     </div>
   );
 };
+
+export default Player;
