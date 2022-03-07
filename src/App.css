@@ -30,10 +30,22 @@ h3 {
     animation: anime .7s forwards;
 }
 
-.animeLeft {
+.animeLeft0-5s {
     opacity: 0;
     transform: translateX(-20px);
-    animation: anime .7s forwards;
+    animation: anime 0.5s forwards;
+}
+
+.animeLeft1-7s {
+    opacity: 0;
+    transform: translateX(-20px);
+    animation: anime 1.7s forwards;
+}
+
+.animeLeft1-5s {
+    opacity: 0;
+    transform: translateX(-20px);
+    animation: anime 1.5s forwards;
 }
 
 @keyframes anime {

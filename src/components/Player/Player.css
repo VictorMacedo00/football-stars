@@ -1,77 +1,90 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap");
 
 .player {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  position: relative;
 }
 
 .playerBackground {
-    max-width: 100%;
-    height: 90%;
-    transition: all 1s;
+  max-width: 100%;
+  height: 90%;
+  transition: all 1s;
 }
 
 .playerBackground img {
-    background-size: cover;
-    background-position: center;
-    object-fit: cover;
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
 }
 
 .playerName {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
 }
 
 .playerName h3 {
-    font-size: 1.31rem;
-    font-weight: 700;
-    letter-spacing: 0.8rem;
-    color: #fff;
-    margin: 0;
-    padding: 0;
-    font-family: 'Inter', sans-serif;
+  font-size: 1.31rem;
+  font-weight: 700;
+  letter-spacing: 0.8rem;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  text-transform: uppercase;
 }
 
 .playerName h1 {
-    width: 100%;
-    font-size: 10rem;
-    font-weight: 700;
-    letter-spacing: 78px;
-    color: #fff;
-    margin: 0;
-    font-family: 'Inter', sans-serif;
+  width: 100%;
+  font-size: 10rem;
+  font-weight: 700;
+  /* letter-spacing: 120px; */
+  color: #fff;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  text-transform: uppercase;
 }
 
 .svgBackground {
-    max-width: 100%;
-    height: 90%;
-    position: absolute;
-    transition: all 1s;
+  max-width: 100%;
+  height: 90%;
+  position: absolute;
+  transition: all 1s;
+}
+
+.svg {
+  transform: rotate(330deg);
 }
 
 .details {
-    width: 100%;
-    height: 300px;
-    padding: 40px;
-    display: flex;
-    justify-content: space-between;
-    position: absolute;
-    bottom: 0;
-
+  width: 100%;
+  height: 300px;
+  padding-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 0;
 }
 
 .infos {
-    width: 300px;
-    height: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
+  width: 300px;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.svgColorHaaland path {
+  fill: #FDCD23;
+}
+
+.svgColorMbappe path {
+  fill: #051447;
 }
