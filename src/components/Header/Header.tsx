@@ -1,6 +1,6 @@
 import React, { useContext, useMemo } from "react";
 import "./Header.css";
-import { useNavigate, useLocation } from 'react-router-dom'
+import { useLocation } from 'react-router-dom'
 import { PlayerContext } from "../../Contexts/PlayerContext";
 
 interface HeaderProps {
